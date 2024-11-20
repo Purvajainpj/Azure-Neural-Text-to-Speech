@@ -29,6 +29,26 @@ VOICE_STYLES = {
         "name": "Ollie (UK Multilingual)",
         "styles": ["Default"]
     },
+    "en-US-Ava:DragonHDLatestNeural": {
+        "name": "Ava (US HD)",
+        "styles": ["Default"]
+    },
+    "en-US-Emma2:DragonHDLatestNeural": {
+        "name": "Emma (US HD)",
+        "styles": ["Default"]
+    },
+    "en-US-Jenny:DragonHDLatestNeural": {
+        "name": "Jenny (US HD)",
+        "styles": ["Default"]
+    },
+    "en-US-Andrew2:DragonHDLatestNeural": {
+        "name": "Andrew (US HD)",
+        "styles": ["Default"]
+    },
+    "en-US-Steffan:DragonHDLatestNeural": {
+        "name": "Steffan (US HD)",
+        "styles": ["Default"]
+    },
     "en-US-AriaNeural": {
         "name": "Aria (Female, US)",
         "styles": ["Neutral","angry", "cheerful", "excited", "friendly", "hopeful", "sad", "shouting", "terrified", "unfriendly", "whispering"]
@@ -257,11 +277,15 @@ def main():
         6. Click 'Convert to Speech' to generate the audio
         
         ### Available Voices:
-        - Ava (US Multilingual) - Supports multiple styles including Advertisement, Conversation, Disfluent, etc.
-        - Jenny (US Multilingual) - Default style only
-        - Ada (UK Multilingual) - Default style only
-        - Ollie (UK Multilingual) - Default style only
-        - Aria, Davis, Guy (US) - Support emotional styles (For Example: Angry, cheerful, excited, friendly, hopeful, sad, shouting, terrified, unfriendly, whispering)
+        - Multilingual Voices:
+            - Ava (US Multilingual) - Supports Default, Advertisement, Conversation, Social_media, Speech, Sports, Story, Recipe, Disfluent
+            - Jenny (US Multilingual), Ada (UK Multilingual), Ollie (UK Multilingual) - Default style only
+
+        - HD Voices:
+            - Ava (US HD), Emma (US HD), Jenny (US HD), Andrew (US HD), Steffan (US HD) - Default style only
+
+        - Emotional Voices:
+            - Aria (Female, US), Davis (Male, US), Guy (Male, US) - Supports Neutral, angry, cheerful, excited, friendly, hopeful, sad, shouting, terrified, unfriendly, whispering
         
         ### Audio Formats:
         - Riff16Khz16BitMonoPcm: Basic quality, smaller file size
