@@ -33,7 +33,7 @@ Styles include: Neutral, angry, cheerful, excited, friendly, and more
 ## Installation
 
 • Clone the repository
-\n• Install dependencies:
+• Install dependencies:
 • pip install -r requirements.txt
 
 
