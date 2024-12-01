@@ -1,22 +1,24 @@
 # Azure Neural Text-to-Speech Streamlit Application
+
 ## Overview
 Azure Neural Text-to-Speech (TTS) is a powerful Streamlit-based application that converts text into natural-sounding speech using advanced neural network models.
+
 ## Features
-•	Multilingual Voices 
-o	Support for multiple languages in a single voice
-o	Voices: Ava, Jenny, Ada, Ollie (US and UK Multilingual)
-•	HD Voice Technology 
-o	Crystal-clear audio quality
-o	Premium voices: Ava HD, Emma HD, Jenny HD, Andrew HD, Steffan HD
-•	Emotional Voice Styles 
-o	Multiple emotional styles available
-o	Voices: Aria, Davis, Guy
-o	Styles include: Neutral, angry, cheerful, excited, friendly, and more
+1. Multilingual Voices 
+Support for multiple languages in a single voice
+Voices: Ava, Jenny, Ada, Ollie (US and UK Multilingual)
+2. HD Voice Technology 
+Crystal-clear audio quality
+Premium voices: Ava HD, Emma HD, Jenny HD, Andrew HD, Steffan HD
+3. Emotional Voice Styles 
+Multiple emotional styles available
+Voices: Aria, Davis, Guy
+Styles include: Neutral, angry, cheerful, excited, friendly, and more
 
 ## Prerequisites
-•	Python 3.6+
-•	Azure account with Speech Service enabled
-•	Azure Speech API key and region
+1. Python 3.6+
+2. Azure account with Speech Service enabled
+3. Azure Speech API key and region
 
 ## Installation
 1.	Clone the repository
@@ -33,25 +35,25 @@ pip install -r requirements.txt
 6.	Preview and download audio
 
 ## Audio Format Options
-•	16KHz (Basic quality)
-•	24KHz (Recommended, balanced quality)
-•	48KHz (High quality)
+1. 16KHz (Basic quality)
+2. 24KHz (Recommended, balanced quality)
+3.	48KHz (High quality)
 
 ## Key Configurations
-•	Voice selection
-•	Speaking style
-•	Speaking rate (0.5 to 2.0)
-•	Pitch adjustment (-50 to +50)
+1. Voice selection
+2. Speaking style
+3. Speaking rate (0.5 to 2.0)
+4. Pitch adjustment (-50 to +50)
 
 ## Security Considerations
-•	Store API keys securely
-•	Use environment variables
-•	Implement access controls
+1. Store API keys securely
+2. Use environment variables
+3. Implement access controls
 
 ## Troubleshooting
-•	Verify Azure credentials
-•	Check network connectivity
-•	Ensure output folder permissions
-•	Monitor Azure service quotas
+1. Verify Azure credentials
+2. Check network connectivity
+3. Ensure output folder permissions
+4. Monitor Azure service quotas
 
 
