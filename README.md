@@ -4,14 +4,14 @@
 Azure Neural Text-to-Speech (TTS) is a powerful Streamlit-based application that converts text into natural-sounding speech using advanced neural network models.
 
 ## Features
-1. Multilingual Voices 
-Support for multiple languages in a single voice
+1. Multilingual Voices,
+Support for multiple languages in a single voice.
 Voices: Ava, Jenny, Ada, Ollie (US and UK Multilingual)
-2. HD Voice Technology 
-Crystal-clear audio quality
+2. HD Voice Technology,
+Crystal-clear audio quality.
 Premium voices: Ava HD, Emma HD, Jenny HD, Andrew HD, Steffan HD
-3. Emotional Voice Styles 
-Multiple emotional styles available
+3. Emotional Voice Styles, 
+Multiple emotional styles available.
 Voices: Aria, Davis, Guy
 Styles include: Neutral, angry, cheerful, excited, friendly, and more
 
