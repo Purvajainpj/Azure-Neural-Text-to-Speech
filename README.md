@@ -39,12 +39,12 @@ Styles include: Neutral, angry, cheerful, excited, friendly, and more
 
 ## Usage
 
-• Launch the Streamlit application
-• Configure Azure credentials in the sidebar
-• Select voice and style
-• Enter text
-• Convert text to speech
-• Preview and download audio
+• Launch the Streamlit application 
+• Configure Azure credentials in the sidebar 
+• Select voice and style 
+• Enter text 
+• Convert text to speech 
+• Preview and download audio 
 
 ## Audio Format Options
 
