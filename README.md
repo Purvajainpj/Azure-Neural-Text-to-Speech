@@ -26,48 +26,48 @@ Styles include: Neutral, angry, cheerful, excited, friendly, and more
 
 ## Prerequisites
 
-Python 3.6+
-Azure account with Speech Service enabled
-Azure Speech API key and region
+• Python 3.6+
+• Azure account with Speech Service enabled
+• Azure Speech API key and region
 
 ## Installation
 
-Clone the repository
-Install dependencies:
-pip install -r requirements.txt
+• Clone the repository
+• Install dependencies:
+• pip install -r requirements.txt
 
 
 ## Usage
 
-Launch the Streamlit application
-Configure Azure credentials in the sidebar
-Select voice and style
-Enter text
-Convert text to speech
-Preview and download audio
+• Launch the Streamlit application
+• Configure Azure credentials in the sidebar
+• Select voice and style
+• Enter text
+• Convert text to speech
+• Preview and download audio
 
 ## Audio Format Options
 
-16KHz (Basic quality)
-24KHz (Recommended, balanced quality)
-48KHz (High quality)
+• 16KHz (Basic quality)
+• 24KHz (Recommended, balanced quality)
+• 48KHz (High quality)
 
 ## Key Configurations
 
-Voice selection
-Speaking style
-Speaking rate (0.5 to 2.0)
-Pitch adjustment (-50 to +50)
+• Voice selection
+• Speaking style
+• Speaking rate (0.5 to 2.0)
+• Pitch adjustment (-50 to +50)
 
 ## Security Considerations
 
-Store API keys securely
-Use environment variables
-Implement access controls
+• Store API keys securely
+• Use environment variables
+• Implement access controls
 
-##Troubleshooting
+## Troubleshooting
 
-Verify Azure credentials
-Check network connectivity
-Ensure output folder permissions
-Monitor Azure service quotas
+• Verify Azure credentials
+• Check network connectivity
+• Ensure output folder permissions
+• Monitor Azure service quotas
