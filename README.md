@@ -1,197 +1,72 @@
-# Azure-Text-to-Speech
-## Overview
-Azure Neural Text-to-Speech (TTS) is a powerful service that converts text into natural-sounding speech using advanced neural network models. This Streamlit-based application provides a user-friendly interface to interact with Azure's Speech Service, offering various voices, styles, and customization options.
+#Azure Neural Text-to-Speech Streamlit Application
+##Overview
+Azure Neural Text-to-Speech (TTS) is a powerful Streamlit-based application that converts text into natural-sounding speech using advanced neural network models.
+Features
 
-## Multilingual Capabilities
+###Multilingual Voices
+
 Support for multiple languages in a single voice
+Voices: Ava, Jenny, Ada, Ollie (US and UK Multilingual)
 
-Seamless language switching without changing voices
 
-Natural pronunciation across languages
+###HD Voice Technology
 
-Key multilingual voices include:
+Crystal-clear audio quality
+Premium voices: Ava HD, Emma HD, Jenny HD, Andrew HD, Steffan HD
 
-Ava (US Multilingual) with advanced style controls
 
-Jenny (US Multilingual) for versatile language support
+###Emotional Voice Styles
 
-Ada and Ollie (UK Multilingual) for British English variations
+Multiple emotional styles available
+Voices: Aria, Davis, Guy
+Styles include: Neutral, angry, cheerful, excited, friendly, and more
 
-HD Voice Technology
-Crystal-clear audio quality with HD neural voices
 
-Enhanced naturalness and clarity
 
-Premium voice options including:
+##Prerequisites
 
-Ava HD for professional applications
-
-Emma HD for clear, natural speech
-
-Jenny HD for high-quality presentations
-
-Andrew HD and Steffan HD for male voice options
-
-Optimal for professional content and production
-
-## Prerequisites
-Python 3.6 or higher
-
+Python 3.6+
 Azure account with Speech Service enabled
-
 Azure Speech API key and region
 
-Required Python packages (specified in requirements.txt)
+##Installation
 
-## Installation
 Clone the repository
-
-Install the required dependencies:
-
+Install dependencies:
 pip install -r requirements.txt
 
-## Key Features
-Voice Options
-Multilingual Voices
 
-Ava (US Multilingual)
+##Usage
 
-Styles: Default, Advertisement, Conversation, Social_media, Speech, Sports, Story, Recipe, Disfluent
-
-Jenny (US Multilingual)
-
-Ada (UK Multilingual)
-
-Ollie (UK Multilingual)
-
-HD Voices
-
-Ava (US HD)
-
-Emma (US HD)
-
-Jenny (US HD)
-
-Andrew (US HD)
-
-Steffan (US HD)
-
-Emotional Voices
-
-Aria (Female, US)
-
-Davis (Male, US)
-
-Guy (Male, US)
-
-Styles: Neutral, angry, cheerful, excited, friendly, hopeful, sad, shouting, terrified, unfriendly, whispering
-
-## Audio Format Options
-Riff16Khz16BitMonoPcm (Basic quality, smaller file size)
-
-Riff24Khz16BitMonoPcm (Standard quality, balanced file size - recommended)
-
-Riff48Khz16BitMonoPcm (High quality, larger file size)
-
-## Usage Guide
-Configuration
 Launch the Streamlit application
+Configure Azure credentials in the sidebar
+Select voice and style
+Enter text
+Convert text to speech
+Preview and download audio
 
-In the sidebar, enter your:
+##Audio Format Options
 
-Azure Speech API Key
+16KHz (Basic quality)
+24KHz (Recommended, balanced quality)
+48KHz (High quality)
 
-Azure Region
-
-Desired output folder
-
-Preferred audio format
-
-Voice Settings
-Select a voice from the dropdown menu
-
-Choose a speaking style (if available for the selected voice)
-
-Adjust voice modifications:
-
-Speaking Rate (0.5 to 2.0)
-
-Pitch Adjustment (-50 to +50)
-
-Text Input and Conversion
-Enter your text in the text area
-
-Supports multiple languages
-
-Accommodates long-form content
-
-Click "Convert to Speech" to generate audio
-
-Preview the generated audio directly in the browser
-
-Download the audio file using the provided button
-
-## Technical Details
-
-SSML Generation
-The application automatically generates SSML (Speech Synthesis Markup Language) with:
+##Key Configurations
 
 Voice selection
+Speaking style
+Speaking rate (0.5 to 2.0)
+Pitch adjustment (-50 to +50)
 
-Style configuration
+##Security Considerations
 
-Prosody controls (rate and pitch)
-
-XML escaping for special characters
-
-Error Handling
-Validates Azure credentials
-
-Provides clear error messages for troubleshooting
-
-Handles synthesis cancellation scenarios
-
-Best Practices
-Use appropriate audio format based on your needs:
-
-Choose 16KHz for basic voice applications
-
-Use 24KHz for standard applications
-
-Select 48KHz for professional audio requirements
-
-Voice Style Selection:
-
-Match the style to your content type
-
-Test different styles for optimal results
-
-Consider using emotional styles for more engaging content
-
-Performance Optimization:
-
-Keep SSML well-formed
-
-Use appropriate output folders
-
-Monitor API usage
-
-## Troubleshooting
-Verify Azure credentials are correct
-
-Ensure proper network connectivity
-
-Check output folder permissions
-
-Verify SSML syntax if using custom markup
-
-Monitor Azure service quotas and limits
-
-## Security Considerations
 Store API keys securely
+Use environment variables
+Implement access controls
 
-Use environment variables for sensitive data
+##Troubleshooting
 
-Implement proper access controls for output files
-
-Monitor and audit API usage
+Verify Azure credentials
+Check network connectivity
+Ensure output folder permissions
+Monitor Azure service quotas
